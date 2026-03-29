@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { dataFound, dataNotFound, exception } from "../helpers/api-result";
-import { webAgent } from "../helpers/web-agent";
-
+export const dynamic = 'force-dynamic';import { webAgent } from "../helpers/web-agent";
+export const dynamic = 'force-dynamic';
 
 export const POST = async (request) => {
     try {
